@@ -1,0 +1,67 @@
+/**index.wxss**/
+
+page {
+  background: #f2f2f2;
+}
+
+.tabFixed {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  height: 168rpx;
+  width: 100%;
+}
+
+.searchBox {
+  padding: 10rpx 15px 0 15px;
+}
+
+.search {
+  background: #eee;
+  height: 68rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6rpx;
+}
+
+.searchIcon {
+  height: 24rpx;
+  width: 24rpx;
+  padding: 0 20rpx;
+}
+
+.searchText {
+  font-size: 24rpx;
+  color: #b0b0b0;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-nav {
+  display: flex;
+  height: 80rpx;
+  line-height: 79rpx;
+  font-size: 32rpx;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tab-item {
+  flex-flow: 1;
+}
+
+.tab-line {
+    transition: all 0.3s;
+}
+
+.tab_line_color {
+  background: #0076b4;
+  height: 4rpx;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 2rpx;
+}

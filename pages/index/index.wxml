@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='tabFixed'>
+    <!--搜索框-->
+    <view class='searchBox'>
+      <view class='search'>
+        <image src='../../images/search.png' class='searchIcon'></image>
+        <text class='searchText'>搜索关键字</text>
+      </view>
+    </view>
+    <!--tab-->
+    <scroll-view scroll-x="true">
+      <view class='tab'>
+        <view class='tab-nav'>
+          <view wx:for="{{newsTypes}}" wx:key="{{index}}" bindtap='setTab' data-tabIndex='{{index}}' class='tab-item' style="color:{{index==showTab?'#0076b4':''}}">
+            {{item.text}}</view>
+        </view>
+
+        <view class='tab-line' style='width:{{100/(newsTypes.length)}}%;transform:translateX({{100*(showTab)}}%);'>
+          <view class='tab_line_color'></view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <!--tab的内容-->
+  <view style='width:100%;margin-top:168rpx;'>
+    <text>22222222222222222</text>
+  </view>
+</view>
