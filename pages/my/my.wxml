@@ -1,0 +1,32 @@
+<!--pages/my/my.wxml-->
+<view>
+
+<view class='list'>
+  <view class='item'>
+    <image class='icon' src='../../images/zyao.png' mode='widthFix'></image>
+    <text>重要通知</text>
+    <image class='arrow' src="../../images/OptionArrow.png"></image>
+  </view>
+  <view class='item'>
+    <image class='icon' src='../../images/message.png' mode='widthFix'></image>
+    <text>我的消息</text>
+    <image class='arrow' src="../../images/OptionArrow.png"></image>
+  </view>
+  <view class='item'>
+    <image class='icon' src='../../images/myshoucang.png' mode='widthFix'></image>
+    <text>我的收藏</text>
+    <image class='arrow' src="../../images/OptionArrow.png"></image>
+  </view>
+  <view class='item'>
+    <image class='icon' src='../../images/liulanjilu.png' mode='widthFix'></image>
+    <text>浏览记录</text>
+    <image class='arrow' src="../../images/OptionArrow.png"></image>
+  </view>
+
+  <view class='item'>
+    <image class='icon' src='../../images/shezhi.png' mode='widthFix'></image>
+    <text>设置</text>
+    <image class='arrow' src="../../images/OptionArrow.png"></image>
+  </view>
+</view>
+</view>

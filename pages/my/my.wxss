@@ -1,0 +1,31 @@
+/* pages/my/my.wxss */
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.list .item{
+  display: flex;
+  height: 96rpx;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 30rpx;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+
+.list .item .icon{
+  width: 28rpx;
+  height: 35rpx;
+}
+
+.list .item text{
+  color: #333333;
+  font-size: 28rpx;
+  margin: 0 30rpx;
+  flex-grow: 1;
+}
+
+.list .item .arrow{
+  width: 13rpx;
+  height: 24rpx;
+}

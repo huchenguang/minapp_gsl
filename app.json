@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/my/my",
     "pages/logs/logs",
     "pages/test/test"
   ],
@@ -27,7 +28,7 @@
         "iconPath": "images/notice.png"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/my/my",
         "text": "我的",
         "selectedIconPath": "images/my_select.png",
         "iconPath": "images/my.png"
